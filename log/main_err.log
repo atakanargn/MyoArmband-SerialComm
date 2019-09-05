@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/pi/MYO/arduino.py", line 71, in <module>
+    main()
+  File "/home/pi/MYO/arduino.py", line 66, in main
+    myo.safely_disconnect()
+  File "/home/pi/MYO/lib/myo.py", line 112, in safely_disconnect
+    self.ble.end_scan()
+  File "/home/pi/MYO/lib/ble.py", line 79, in end_scan
+    return self.send_command(6, 4)
+  File "/home/pi/MYO/lib/ble.py", line 91, in send_command
+    self.ser.write(package)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 571, in write
+    raise SerialException('write failed: {}'.format(e))
+serial.serialutil.SerialException: write failed: [Errno 5] Input/output error
