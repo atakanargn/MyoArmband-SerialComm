@@ -10,7 +10,7 @@
         " pip install -r reqs.txt "
         " pip3 install -r reqs.txt "
 
-* Band verileri okuma ve STM ile seri haberleşme kısmı Python 2.7.15 ile çalışır.
+* Band verileri okuma ve Arduino ile seri haberleşme kısmı Python 2.7.15 ile çalışır.
    --> Çalıştırmadan önce band'un bluetooth'unun takılı olduğundan emin olun.
    --> Test için aşağıdaki komutu çalıştırıp, okunan hareketlerin ekrana basılmış halini görebilirsiniz.
         " sudo python main.py 0 "
