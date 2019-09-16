@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 import sys
 # Bluetooth kütüphaneleri konumu
 sys.path.append('/home/pi/MYO/lib/')
@@ -12,7 +13,7 @@ from vibration_type import VibrationType
 # SLEEP() FONKSIYONU
 from time import sleep
 
-def main():
+while True:
     print("### ITECH BIYONIK-EL YAZILIMI ###\n#")
     print('# Myo yazilimi baslatiliyor')
     # HAREKET TANIMLAMA LISTENERI
@@ -56,7 +57,3 @@ def main():
         myo.safely_disconnect()
         print('# Cikis yapildi.\n#')
         print("### ITECH BIYONIK-EL YAZILIMI ###")
-
-# PROGRAM BU BÖLÜMDE ÇALIŞIR
-if __name__ == '__main__':
-    main()

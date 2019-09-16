@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 import sys
 sys.path.append('/home/pi/MYO/lib/')
 
@@ -6,6 +7,12 @@ sys.path.append('/home/pi/MYO/lib/')
 from device_listener import DeviceListener
 from pose_type import PoseType
 from time import sleep
+
+# PrintPose
+class PrintPoseListener(DeviceListener):
+	def on_pose(self, pose):
+		pose_type = PoseType(pose)
+		print("# HAREKET : "+pose_type.name+"\n#")
 
 # RS232 Serihaberleşme yapısı
 class RS232Listener(DeviceListener):
