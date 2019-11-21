@@ -25,3 +25,6 @@
         LINK : https://blog.samm.com/raspberry-pi-uart/
     --> Donanımsal saat yani RTC ayarları da yapılıp, hwclock yazılımı ile konfigürasyon yapılmalı.
         LINK : https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time
+
+Band ve Bluetooth dongle arasında haberleşmeyi şu proje sayesine gerçekleştirdim;
+https://github.com/Ramir0/Myo4Linux
