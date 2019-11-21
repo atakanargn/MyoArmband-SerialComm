@@ -1,4 +1,7 @@
 # MYO ARMBAND PROJE KURULUM VE AYARLARI
+## NEDIR BU?
+* ITech robotik ve otomasyon şirketinde, Biyonik el projesi üstünde çalışırken Arduino ve Rasberry pi ile haberleşme yapmamız gerekti başta STM ile haberleşme yapıyorduk ancak STM üstünde çalışacak vaktimiz ve yazılımcımız olmadığı için -vakit olsa öğrenmeye çalışırdım- Arduino kullandık.
+* MYO-Armbanddan gelen veri Rasberry'e takılan Bluetooth dongle ile haberleşir ardından gelen veriler yorumlandıktan sonra Arduino ile motor hareketlerine döndürülür, kurulan mekanik sistem ise motorlarla çalışır ve el hareketlerine dönüşür.
 
 ## SIFIR KURULUM
 ## SERIAL BAĞLANTISINDA TIMEOUT EKLEMEYI UNUTMA!
