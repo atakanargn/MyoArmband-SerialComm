@@ -4,7 +4,6 @@
 * MYO-Armbanddan gelen veri Rasberry'e takılan Bluetooth dongle ile haberleşir ardından gelen veriler yorumlandıktan sonra Arduino ile motor hareketlerine döndürülür, kurulan mekanik sistem ise motorlarla çalışır ve el hareketlerine dönüşür.
 
 ## SIFIR KURULUM
-## SERIAL BAĞLANTISINDA TIMEOUT EKLEMEYI UNUTMA!
 * Raspbian-2018 versiyonu sd-karta atılır.
 
 * Sistem güncel olmalıdır.
